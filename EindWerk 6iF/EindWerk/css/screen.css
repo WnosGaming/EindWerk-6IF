@@ -19,7 +19,12 @@ h1 {
   background-color: black;
   color: #eee;
 }
-
+#voeguser{
+  height: 25px;
+}
+#login{
+  height: 25px;
+}
 /*---------------------------------------/*
   # OBJECTS
 /*---------------------------------------*/
