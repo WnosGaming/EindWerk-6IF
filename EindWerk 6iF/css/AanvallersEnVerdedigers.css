@@ -11,8 +11,9 @@ main{
     justify-content: center;
     margin: 20px;
 }
+
 .product{
-    border: 3px solid black;
+    border: 1px solid black;
     border-radius: 5px;
     padding: 20px;
     margin: 10px;   
@@ -22,6 +23,7 @@ main{
     width: 100%;
     height: 300px;
     border-radius: 5px;
+    
 }
 
 .btn:hover{
@@ -37,6 +39,7 @@ main{
     color: white;
     border: none;
     padding: 8px 20px;
-    border-radius: 25px;
-    
+    border-radius: 25px;  
 }
+
+/* addPage */

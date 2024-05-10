@@ -1,0 +1,45 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+h2 {
+    margin-bottom: 15px;
+}
+.add table {
+    width: 100%;
+}
+.add table tr {
+    margin-bottom: 10px;
+}
+.add table tr td {
+    padding: 5px;
+}
+
+.add table tr td textarea {
+    height: 100px;
+}
+#producten {
+    width: 100%;
+    border-collapse: collapse;
+}
+#producten td, #producten th {
+    border: 3px solid black;
+    padding: 8px;
+    text-align: left;
+    border-radius: 50px;
+}
+#producten th {
+    background-color: black;
+}
+#producten img {
+    max-width: 100px;
+    max-height: 100px;
+}
+#del {
+    padding: 5px 10px;
+    background-color: red;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 50px;
+}
