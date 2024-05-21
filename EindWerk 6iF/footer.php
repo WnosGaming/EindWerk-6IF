@@ -22,9 +22,9 @@
 			<div class="row">
 				<div class="col-12 col-md-9">
 					<ul class="list-unstyled d-flex flex-wrap justify-content-center justify-content-md-start">
-						<li class="px-3"><a href="EindWerk.html" class="c-nav__link">Home</li></a>
-						<li class="px-3"><a href="#" class="c-nav__link">Onze diensten</li></a>
-						<li class="px-3"><a href="#" class="c-nav__link">Klantengetuigenissen</li></a>
+						<li class="px-3"><a href="EindWerk.php" class="c-nav__link">Home</li></a>
+						<li class="px-3"><a href="ContactPagina.php" class="c-nav__link">Contact</li></a>
+						<li class="px-3"><a href="Klant.php" class="c-nav__link">Klantengetuigenissen</li></a>
 						<li class="px-3"><a href="addPage.php" class="c-nav__link">Product toevoegen</li></a>
 						<li class="px-3"><a href="producten.php" class="c-nav__link">Winkelmandje</li></a>
 					</ul>
