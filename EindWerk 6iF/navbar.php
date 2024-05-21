@@ -29,7 +29,7 @@
 				<div class="collapse navbar-collapse" id="navbarSupportedContent">
 					<ul class="navbar-nav ms-left mb-2 mb-lg-0 align-items-center">
 					<li class="nav-item">
-						<a class="nav-link active" aria-current="page" href="EindWerk.php">R6 Shop</a>
+						<a class="nav-link active" aria-current="page" href="Home.php">R6 Shop</a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" href="Aanvallers.php" >Aanvallers</a>

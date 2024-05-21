@@ -4,15 +4,86 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contactpagina - R6 Shop</title>
-
+     
 </head>
 
 <body>
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    background-image: url('img/giphy4.gif');
+}
+
+.container1 {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+}
+
+.contact-info, .business-info {
+    margin-bottom: 30px;
+}
+
+.contact-info h2, .business-info h2 {
+    color: #4CAF50;
+    border-bottom: 2px solid #4CAF50;
+    padding-bottom: 10px;
+}
+
+p, ul {
+    line-height: 1.6;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+ul li strong {
+    color: #333;
+}
+
+a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+
+
+@media (min-width: 768px) {
+    .contact-info, .business-info {
+        display: inline-block;
+        width: 48%;
+        vertical-align: top;
+    }
+
+    .contact-info {
+        margin-right: 4%;
+    }
+}
+    </style>
 <?php
     include_once("navbar.php");
     ?> 
     <br><br><br><br>
-    <div class="container">
+    <div class="container1">
         <h1>Contact</h1>
         <div class="contact-info">
             <h2>Klantenservice</h2>
@@ -20,6 +91,7 @@
             <ul>
                 <li><strong>E-mail:</strong> <a href="mailto:support@r6shop.com">support@r6shop.com</a></li>
                 <li><strong>Telefoon:</strong> +31 (0) 123 456 789</li>
+                <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script><div class="elfsight-app-9a957983-5442-40a8-a166-3148e03edfdc" data-elfsight-app-lazy></div>
             </ul>
         </div>
         <div class="business-info">
@@ -29,12 +101,15 @@
             Winkelstraat 8<br>
             8500 Kortrijk<br>
             België</p>
+
             <p><strong>KvK-nummer:</strong> 19785149</p>
             <p><strong>BTW-identificatienummer:</strong> NL178163492B01</p>
+     
         </div>
     </div>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="script.js"></script>
+    <br> <br>                                                                       
     <?php
     include_once("footer.php");
     ?> 
