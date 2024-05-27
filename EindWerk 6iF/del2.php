@@ -3,7 +3,7 @@
     if(isset($_GET['id'])){
         $id = $_GET['id'];
         print "id=". $id;
-        $sql = "DELETE FROM `tblproductenaanvallers` WHERE id = '".$id."'";
+        $sql = "DELETE FROM `tblproductenverdedigers` WHERE id = '".$id."'";
 
         if ($conn->query($sql) === TRUE)
         {

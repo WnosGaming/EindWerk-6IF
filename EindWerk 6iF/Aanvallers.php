@@ -32,8 +32,11 @@
 					<b>Unieke vaardighed:</b> Aqua Breacher
 					<br>
 					<b>Prijs:</b> €20
+					
 				</p>
 				<a href="addPage.php"><button class="btn">Koop</button></a><a href="https://www.ubisoft.com/en-gb/game/rainbow-six/siege/game-info/operators/ace" target="_blank"><button class="btn" style="float: right;">Meer info</button></a>
+				<br><br>
+				
 			</div>
 			<div class="product">
 				<img src="img/sledge.avif" alt="Ace">

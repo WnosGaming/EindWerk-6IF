@@ -1,23 +1,30 @@
 <?php
+
 include_once("connection.php");
-$result=0;
+session_start(); 
+
+$result = 0;
 $user = htmlspecialchars($_POST['username']);
 $pass = htmlspecialchars($_POST['password']);
 
-// $passmd5=md5($pass);
 
-$result = $conn->query("SELECT * FROM users WHERE gebruikersnaam='$user' AND paswoord='$pass'");
-if ($result -> num_rows){
+$stmt = $conn->prepare("SELECT klantID, gebruikersnaam, paswoord FROM users WHERE gebruikersnaam = ? AND paswoord = ?");
+$stmt->bind_param("ss", $user, $pass);
+$stmt->execute();
+$result = $stmt->get_result();
+
+if ($result->num_rows) {
+    $row = $result->fetch_assoc();
     print "Welkom";
-    session_start();
-    $_SESSION["user"]=$user;
-    header("Location: login.php?melding=Ja bent aangemeld");
-
-}
-else{
+    $_SESSION["user"] = $user;
+    $_SESSION["klantID"] = $row['klantID'];
+    header("Location: login.php?melding=Je bent aangemeld");
+    exit(); 
+} else {
     header("Location: login.php?melding=Gebruikersnaam of paswoord is niet correct");
-
+    exit(); 
 }
-$conn->close();
 
+$stmt->close();
+$conn->close();
 ?>

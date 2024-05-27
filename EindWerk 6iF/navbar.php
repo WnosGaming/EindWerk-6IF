@@ -32,21 +32,34 @@
 						<a class="nav-link active" aria-current="page" href="Home.php">R6 Shop</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="Aanvallers.php" >Aanvallers</a>
+						<a class="nav-link" href="productenAanvallers.php" >Aanvallers</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="Verdedigers.php">Verdedigers</a>
+						<a class="nav-link" href="productenVerdedigers.php">Verdedigers</a>
+					</li>
+					<li class="nav-item">
+					<?php if ($user=='Admin') print '<li class="nav-item"><a class="nav-link" href="addPageVerdedigers.php">Aanvallers toevoegen</a></li>' ?>
+					</li>
+					<li class="nav-item">
+						<?php if ($user=='Admin') print '<li class="nav-item"><a class="nav-link" href="addPageVerdedigers.php">Verdedigers toevoegen</a></li>' ?>
 					</li>
 					</ul>
 					<ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-center">
 						<li class="nav-item">
-						<li ><a href="" style="text-decoration: none;"><?php if ($user!='Login') print '<img src="img/add-user.png" alt="add user" id="voeguser" >Welkom User '.$user;?></a></li>
+						<li ><a href="signup.php" style="text-decoration: none;"><?php if ($user!='Login') print '<img src="img/add-user.png" alt="add user" id="voeguser" >Welkom User '.$user;?></a></li>
         				<?php if ($user=='Login') print '<li><a class="nav-link" href="signupForm.php"><img src="img/add-user.png" alt="add user" id="voeguser" > Sign Up</a></li>';?>
 						</li>
 						<li class="nav-item">
 						<?php if ($user=='Login') print '<li><a class="nav-link" href="login.php" ><img src="img/log-in.png" alt="Log in" id="login"> Login</a></li>';?>
         				<li><a href="logout.php" style="text-decoration: none;"><?php if ($user!='Login') print '<img src="img/log-in.png" alt="Log in" id="login">Logout';?></a></li>
-						</li>	
+						</li>
+						<li class="nav-item">
+    					<a id="login" href="winkelmandje.php">
+        				<img src="img/2.png" alt="Winkelmandje">
+        				
+    					</a>
+						</li>
+
 					</ul>
 					
 				</div>

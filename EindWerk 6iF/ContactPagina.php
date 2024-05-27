@@ -89,7 +89,7 @@ a {
             <h2>Klantenservice</h2>
             <p>Heb je vragen over een product, je bestelling, of iets anders? Neem contact met ons op:</p>
             <ul>
-                <li><strong>E-mail:</strong> <a href="mailto:support@r6shop.com">support@r6shop.com</a></li>
+                <li><strong>E-mail:</strong> <a href="mailto:aljaberimohammedbe@gmail.com">aljaberimohammedbe@gmail.com</a></li>
                 <li><strong>Telefoon:</strong> +31 (0) 123 456 789</li>
                 <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script><div class="elfsight-app-9a957983-5442-40a8-a166-3148e03edfdc" data-elfsight-app-lazy></div>
             </ul>

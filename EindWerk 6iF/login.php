@@ -5,6 +5,8 @@ if (isset($_SESSION["user"]))
 {
    $user=$_SESSION["user"];
 }
+
+
  ?>
 
 <!doctype html>
@@ -20,7 +22,11 @@ if (isset($_SESSION["user"]))
     
     <?php
     include_once("navbar.php");
+    
     ?> 
+    <?php
+    
+    ?>
     <br><br><br><br>
     <div class="row">
             <h1 style="text-align: center;">Log in</h1>
@@ -57,5 +63,18 @@ if (isset($_SESSION["user"]))
     <?php 
     include_once("footer.php");
     ?> 
+    <!-- //------------- SQL-Injection -------------- //
+
+    // Methode 1
+    $user = htmlspecialchars($_POST['username']);
+    $pass = htmlspecialchars($_POST['password']);
+    // Methode 2
+    $user = $conn -> real_escape_string($user);
+    $pass = $conn -> real_escape_string($pass);
+    // Methode 3
+    $sql="SELECT * FROM users WHERE gebruikersnaam = ? AND paswoord = ?";
+    $dbConn = $conn->prepare($sql);
+    $dbConn->bind_param('ss',$user,$pass); -->
+
 </body>
 </html>

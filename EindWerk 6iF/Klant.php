@@ -66,7 +66,7 @@
 					<div class="p-5">
 						<h2>Betaalmethoden</h2>
 						<p>We bieden diverse betaalmethoden aan, waaronder PayPal, Mastercard, Visa, Maestro, Apple Pay, Amazon Pay, Google Pay en Stripe.</p>
-                        <a href="addPage.php"><button class="btn">Koop Nu!</button></a>
+                        <a href="NaarpaginaDieHijKanKiezenTussenAEnV"><button class="btn">Koop Nu!</button></a>
 					</div>
 				</div>
 			</div>
@@ -138,7 +138,7 @@
 					<div class="py-5">
 						<img class="c-testimonial__img" src="img/american-psycho.jpg">
 						<h3 class="my-3">American Psycho</h3>
-						<p>""Ik ben zeer tevreden met de diensten die ik heb ontvangen. De klantenservice was uitstekend en de kwaliteit van het product overtrof mijn verwachtingen."</p>
+						<p>"Ik ben zeer tevreden met de diensten die ik heb ontvangen. De klantenservice was uitstekend en de kwaliteit van het product overtrof mijn verwachtingen."</p>
 					</div>
 				</div>
                 <div class="col-lg-4">

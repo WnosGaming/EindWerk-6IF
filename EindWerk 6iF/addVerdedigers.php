@@ -7,7 +7,7 @@
     $EchteNaam = $_POST['EchteNaam'];
     $afbeelding = $_POST['afbeelding'];
 
-    $sql = "INSERT INTO `tblproductenaanvallers` (`id`, `naam`,`EchteNaam`, `prijs`, `UniekeVaardigheid`, `afbeelding`) VALUES (NULL, '$naam','$EchteNaam', '$prijs', '$UniekeVaardigheid', '$afbeelding')";
+    $sql = "INSERT INTO `tblproductenverdedigers` (`id`, `naam`,`EchteNaam`, `prijs`, `UniekeVaardigheid`, `afbeelding`) VALUES (NULL, '$naam','$EchteNaam', '$prijs', '$UniekeVaardigheid', '$afbeelding')";
 
 
     if ($conn->query($sql) === TRUE){

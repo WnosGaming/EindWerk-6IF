@@ -60,6 +60,7 @@
 					<div class="p-5">
 						<h2>Rainbow Six Siege</h2>
 						<p>Rainbow Six Siege is een teamgebaseerd tactisch schietspel waarin spelers als aanvallers of verdedigers strijden. Het draait om strategie, samenwerking en het gebruik van unieke operatorvaardigheden en gadgets.</p>
+						<a href="https://www.ubisoft.com/en-gb/game/rainbow-six/siege"><button class="btn">Meer Info</button></a>
 					</div>
 				</div>
 			</div>
@@ -71,6 +72,7 @@
 					<div class="p-5">
 						<h2>Aanvallers</h2>
 						<p>Aanvallers in Rainbow Six Siege zijn de spelers die vijandelijke posities aanvallen en doelwitten proberen te veroveren. Ze werken samen en hebben elk speciale vaardigheden en gadgets om hun missie te volbrengen.</p>
+						<a href="productenAanvallers.php"><button class="btn">Koop Nu!</button></a>
 					</div>
 				</div>
 			</div>
@@ -82,6 +84,7 @@
 					<div class="p-5">
 						<h2>Verdedigers</h2>
 						<p>Verdedigers in Rainbow Six Siege beschermen locaties en gebruiken gadgets en barricades om vijandelijke aanvallen te stoppen. Elke verdediger heeft speciale vaardigheden om de positie te versterken.</p>
+						<a href="productenVerdedigers.php"><button class="btn">Koop Nu!</button></a>
 					</div>
 				</div>
 			</div>
@@ -107,7 +110,7 @@
 				</div>
 				<div class="col-lg-4">
 					<div class="py-5">
-						<img class="c-testimonial__img" src="img/Gamer3.jpg">
+						<img class="c-testimonial__img" src="img/wnos3.jpg">
 						<h3 class="my-3">Wnos</h3>
 						<p>"Heel erg bedankt dat jullie deze skins beschikbaar stellen voor ons!"</p>
 					</div>
