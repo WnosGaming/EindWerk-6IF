@@ -1,4 +1,4 @@
-<!-- Geen GitHub -->
+<!-- GitHub -->
 
 <!DOCTYPE html>
 <html lang="en">
