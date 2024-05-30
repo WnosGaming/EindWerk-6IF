@@ -1,0 +1,76 @@
+body {
+    font-family: Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.producten {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.producten h2, .producten h3 {
+    text-align: center;
+    color: Black;
+}
+
+.producten img {
+    max-width: 350px;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+    border: 5px solid black;
+    border-radius: 25px; 
+}
+
+.producten div {
+    border-bottom: 5px solid #ddd;
+    padding: 10px 0;
+}
+
+.producten b {
+    display: block;
+    margin-top: 10px;
+}
+
+.producten p {
+    text-align: right;
+    font-weight: bold;
+    color: black;
+}
+
+.producten button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: black;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.producten button:hover {
+    background-color: skyblue;
+}
+
+.producten a {
+    color: #ff0000;
+    text-decoration: none;
+}
+
+.producten a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: rgb(64, 64, 64);
+    color: #eee;
+    bottom: 0;
+    width: 100%;
+}

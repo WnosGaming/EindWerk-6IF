@@ -12,15 +12,8 @@ if (isset($_SESSION["user"]))
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>R6 Signup</title>  
-    
-
-    
-
-
-	
-	
-
+    <title>R6 Signup</title>
+    <link rel="shortcut icon" href="img/Favicon.png" type="image/png">  
 </head>
 <body>
     

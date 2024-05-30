@@ -3,82 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contactpagina - R6 Shop</title>
+    <link rel="stylesheet" href="css/Contact.css">
+    <link rel="shortcut icon" href="img/Favicon.png" type="image/png">
+    <title>R6 Contactpagina</title>
      
 </head>
 
 <body>
-    <style>
-        body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
-    color: #333;
-    background-image: url('img/giphy4.gif');
-}
-
-.container1 {
-    width: 90%;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
-    background-color: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
-}
-
-h1 {
-    text-align: center;
-    color: black;
-}
-
-.contact-info, .business-info {
-    margin-bottom: 30px;
-}
-
-.contact-info h2, .business-info h2 {
-    color: #4CAF50;
-    border-bottom: 2px solid #4CAF50;
-    padding-bottom: 10px;
-}
-
-p, ul {
-    line-height: 1.6;
-}
-
-ul {
-    list-style: none;
-    padding: 0;
-}
-
-ul li {
-    margin-bottom: 10px;
-}
-
-ul li strong {
-    color: #333;
-}
-
-a {
-    color: #4CAF50;
-    text-decoration: none;
-}
-
-
-
-@media (min-width: 768px) {
-    .contact-info, .business-info {
-        display: inline-block;
-        width: 48%;
-        vertical-align: top;
-    }
-
-    .contact-info {
-        margin-right: 4%;
-    }
-}
-    </style>
 <?php
     include_once("navbar.php");
     ?> 
@@ -113,6 +44,7 @@ a {
     <?php
     include_once("footer.php");
     ?> 
+    
 </body>
 </html>
 

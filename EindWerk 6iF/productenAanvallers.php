@@ -9,9 +9,8 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="css/HomePage.css">
 	<link rel="stylesheet" href="css/AanvallersEnVerdedigers.css">
-    <!-- <link rel="shortcut icon" href="img/Icon.png" type="image/png"> -->
     <link rel="shortcut icon" href="img/Favicon.png" type="image/png">
-    <title>Producten Webshop</title> 
+    <title>R6 Aanvallers</title> 
     
 </head>
 <body>

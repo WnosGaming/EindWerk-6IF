@@ -18,8 +18,6 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="css/HomePage.css">
 	<link rel="stylesheet" href="css/addPage.css">
-    
-    <!-- <link rel="shortcut icon" href="img/Icon.png" type="image/png"> -->
     <link rel="shortcut icon" href="img/Favicon.png" type="image/png">
     
 </head>
@@ -64,6 +62,7 @@
             </table>
         </form>
     </div>
+    
     <h2>Producten</h2>
         <table id="producten">
                 <?php
@@ -72,6 +71,7 @@
                 $result = $conn->query($sql);
                 while($row = $result->fetch_assoc()){
                 ?>
+            
                 <tr>
                     <td><?php echo $row['id']; ?></td></p>
                     <td><img src="img/<?php echo $row['afbeelding'];?>" ></td>

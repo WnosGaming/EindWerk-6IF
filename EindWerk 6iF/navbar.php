@@ -1,3 +1,8 @@
+
+<?php
+include 'connection.php';
+include 'sessionCheckUser.php';
+?>
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -10,7 +15,6 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
         <link rel="stylesheet" href="css/HomePage.css">
 		<link rel="stylesheet" href="css/AanvallersEnVerdedigers.css">
-        <!-- <link rel="shortcut icon" href="img/Icon.png" type="image/png"> -->
         <link rel="shortcut icon" href="img/Favicon.png" type="image/png">
         
     </head>
@@ -46,7 +50,7 @@
 					</ul>
 					<ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-center">
 						<li class="nav-item">
-						<li ><a href="signup.php" style="text-decoration: none;"><?php if ($user!='Login') print '<img src="img/add-user.png" alt="add user" id="voeguser" >Welkom User '.$user;?></a></li>
+						<li ><a href="signup.php" style="text-decoration: none;"><?php if ($user!='Login') print '<img src="img/add-user.png" alt="add user" id="voeguser" >Welkom '.$user ; ?></a></li>
         				<?php if ($user=='Login') print '<li><a class="nav-link" href="signupForm.php"><img src="img/add-user.png" alt="add user" id="voeguser" > Sign Up</a></li>';?>
 						</li>
 						<li class="nav-item">

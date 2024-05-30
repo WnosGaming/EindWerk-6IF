@@ -9,9 +9,8 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="css/HomePage.css">
 	<link rel="stylesheet" href="css/AanvallersEnVerdedigers.css">
-    <!-- <link rel="shortcut icon" href="img/Icon.png" type="image/png"> -->
     <link rel="shortcut icon" href="img/Favicon.png" type="image/png">
-    <title>Producten Webshop</title> 
+    <title>R6 Verdedigers</title> 
     
 </head>
 <body>
@@ -40,7 +39,7 @@
                 <p><b>Echte Naam:</b> <?php echo $row['EchteNaam']; ?></p>
                 <p><b>Unieke Vaardigheid:</b> <?php echo $row['UniekeVaardigheid']; ?> </p>
                 <p class="prijs"><b>Prijs: </b> <?php echo $row['prijs']; ?> </p>
-                <button class="btn">Koop</button>
+                <a class="btn" href="winkelmandje.php?productID=<?php echo $row['id']; ?>">Koop</a>
             </div>
         </div>
         <?php };

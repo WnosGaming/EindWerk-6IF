@@ -50,7 +50,8 @@ else
 {
         $melding = "De gebruikersnaam bestaat al";
 }
-        header("Location: signupForm.php?melding=$melding");
+        
+        header("Location: login.php?melding=$melding");
         $conn->close();
 }
 ?>

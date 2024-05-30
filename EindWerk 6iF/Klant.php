@@ -108,7 +108,6 @@
             <p>"Mijn ervaring met dit bedrijf was fantastisch van begin tot eind. De medewerkers waren vriendelijk en behulpzaam, en de producten zijn top-notch."</p>
             <div class="author">- Beaulo</div>
         </div>
-        
     </div>
     <section class="c-testimonial text-center">
 		<div class="container">
@@ -129,7 +128,7 @@
 				</div>
 				<div class="col-lg-4">
 					<div class="py-5">
-						<img class="c-testimonial__img" src="img/Gamer3.jpg">
+						<img class="c-testimonial__img" src="img/wnos4.jpeg">
 						<h3 class="my-3">Wnos</h3>
 						<p>"Heel erg bedankt dat jullie deze skins beschikbaar stellen voor ons!"</p>
 					</div>

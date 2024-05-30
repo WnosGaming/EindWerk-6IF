@@ -18,8 +18,6 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="css/HomePage.css">
 	<link rel="stylesheet" href="css/addPage.css">
-    
-    <!-- <link rel="shortcut icon" href="img/Icon.png" type="image/png"> -->
     <link rel="shortcut icon" href="img/Favicon.png" type="image/png">
     
 </head>
